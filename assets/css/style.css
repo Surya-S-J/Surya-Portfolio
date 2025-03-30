@@ -37,7 +37,7 @@ html::-webkit-scrollbar-track {
   background: rgb(235, 202, 245);
 }
 html::-webkit-scrollbar-thumb {
-  background: #420177;
+  background: #62dbfc;
 }
 
 /* pre loader start */
@@ -211,7 +211,7 @@ header .navbar ul li a:hover {
   flex: 1 1 40rem;
   z-index: 1;
 }
-.home .image img {
+.home ./image img {
   width: 100%;
   height: 100%;
   margin-top: 5rem;
@@ -220,7 +220,7 @@ header .navbar ul li a:hover {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
   cursor: pointer;
 }
-.home .image img:hover {
+.home ./image img:hover {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
 }
 .home .content h2 {
@@ -336,7 +336,7 @@ header .navbar ul li a:hover {
   .socials {
     margin-top: 12rem;
   }
-  .home .image img {
+  .home ./image img {
     margin-top: 1rem;
   }
   .home .content p {
@@ -364,7 +364,7 @@ header .navbar ul li a:hover {
   text-align: center;
   flex: 1 1 35rem;
 }
-.about .row .image img {
+.about .row ./image img {
   margin: 1rem;
   width: 100%;
   height: 400px;
@@ -373,7 +373,7 @@ header .navbar ul li a:hover {
   transition: 0.3s;
   cursor: pointer;
 }
-.about .row .image img:hover {
+.about .row ./image img:hover {
   mix-blend-mode: normal;
 }
 .about .row .content {
@@ -443,7 +443,7 @@ header .navbar ul li a:hover {
   .about .row .image {
     margin-top: 2rem;
   }
-  .about .row .image img {
+  .about .row ./image img {
     margin: 0 auto;
     width: 80%;
     mix-blend-mode: normal;
