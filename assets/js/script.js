@@ -59,11 +59,11 @@ $(document).ready(function () {
 document.addEventListener('visibilitychange',
     function () {
         if (document.visibilityState === "visible") {
-            document.title = "Portfolio | CodeWithTanveer";
+            document.title = "Portfolio | Surya-Portfolio";
             $("#favicon").attr("href", "assets/images/favicon.jpg");
         }
         else {
-            document.title = "Portfolio | Tanveer Ahmad";
+            document.title = "Portfolio | Surya S J";
             $("#favicon").attr("href", "assets/images/favicon.jpg");
         }
     });
