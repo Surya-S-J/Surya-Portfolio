@@ -124,8 +124,8 @@ ScrollReveal().reveal(".service__card", {
 
 ScrollReveal().reveal(".portfolio__card", {
 
-  duration: 1000,
+  duration: 10000,
 
-  interval: 500,
+  interval: 5000,
 
 });
