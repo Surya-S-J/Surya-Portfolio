@@ -269,9 +269,9 @@ nav {
 }
 
 .portfolio__grid {
-  margin-top: 4rem;
+  margin-top: 2rem;
   display: grid;
-  gap: 2rem;
+  gap: 1rem;
 }
 
 .portfolio__card {
@@ -355,11 +355,11 @@ nav {
 
 @media (width > 576px) {
   .service__grid {
-    grid-template-columns: repeat(4, 2fr);
+    grid-template-columns: repeat(2, 1fr);
   }
 
   .portfolio__grid {
-    grid-template-columns: repeat(4, 2fr);
+    grid-template-columns: repeat(2, 1fr);
   }
 
   .portfolio__banner {
