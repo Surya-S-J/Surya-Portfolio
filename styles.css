@@ -269,9 +269,9 @@ nav {
 }
 
 .portfolio__grid {
-  margin-top: 2rem;
+  margin-top: 4rem;
   display: grid;
-  gap: 1rem;
+  gap: 2rem;
 }
 
 .portfolio__card {
@@ -289,10 +289,10 @@ nav {
 }
 
 .portfolio__banner {
-  margin-top: 2rem;
+  margin-top: 4rem;
   padding: 2rem;
   display: grid;
-  gap: 2rem;
+  gap: 4rem;
   text-align: center;
   background-image: var(--gradient-2);
   border-radius: 1rem;
