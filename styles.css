@@ -289,10 +289,10 @@ nav {
 }
 
 .portfolio__banner {
-  margin-top: 4rem;
+  margin-top: 2rem;
   padding: 2rem;
   display: grid;
-  gap: 4rem;
+  gap: 2rem;
   text-align: center;
   background-image: var(--gradient-2);
   border-radius: 1rem;
@@ -355,11 +355,11 @@ nav {
 
 @media (width > 576px) {
   .service__grid {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(4, 2fr);
   }
 
   .portfolio__grid {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(4, 2fr);
   }
 
   .portfolio__banner {
